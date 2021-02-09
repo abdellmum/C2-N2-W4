@@ -1,8 +1,8 @@
 body{
-    width: 1234px;
+    width: 100%;
 }
 .header{
-    width: 1234px;
+    width: 100%;
     height: 100px;
     position: relative;
     background-color: #127998;
@@ -11,7 +11,11 @@ body{
 }
 .logo{
     height: 200px;
+<<<<<<< HEAD
     background-image: url(/C2-N2-W4/images/logo.svg);
+=======
+    background-image: url(images/logo.svg);
+>>>>>>> 265db7688096c7f6d1e581c60cd7163551f369c5
     background-repeat: no-repeat;
     margin-top: 20px;
     margin-left: 10px;
@@ -103,7 +107,7 @@ margin-right: 40px;
 }
 .right__main{
     margin-top: 20px;
-    background-image: url(/C2-N2-W4/images/illustration-2.svg);
+    background-image:url(images/illustration-2.svg);
     background-size: 79% 100%;
     background-position: right;
     background-repeat: no-repeat;
