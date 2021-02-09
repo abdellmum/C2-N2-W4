@@ -11,7 +11,7 @@ body{
 }
 .logo{
     height: 200px;
-    background-image: url(/images/logo.svg);
+    background-image: url(/C2-N2-W4/images/logo.svg);
     background-repeat: no-repeat;
     margin-top: 20px;
     margin-left: 10px;
@@ -47,34 +47,25 @@ margin-right: 40px;
     padding: 2px;
 
 }
-.rectp1{
-    border: 2px solid #127998;
-}
-.rectp2{
-    
-    border: 2px solid #127998;
-    
-}
-
 .rectp3{
    
-    border: 2px solid #127998;
+    
     grid-area: 2/1/3/3;
 }
 .rectp4{
     
-    border: 2px solid #127998;
+    
     grid-area: 3/1/4/3;
 }
 .rectp5{
     
-    border: 2px solid #127998;
+    
     grid-area: 4/1/5/3;
 }
 .tx{
     opacity: 0.5;
     margin-left: 5px;
-    margin-top: -22px;
+    margin-top: -19px;
 
 }
     
@@ -135,4 +126,62 @@ margin-right: 40px;
 }
 .txt1{
     opacity: 0.5;
+}
+.arrow{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:600px){
+    .mainn{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+.rectangles{
+    width: 100%;
+    border: none;
+    border-top: dashed #127998;
+    margin-top: 100px;
+}
+.left__main{
+    width: 100%;
+
+}
+.right__main{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.rectangle{
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.button{
+    margin-left: 250px;
+}
+.txt1{
+    text
+}
+
+
+@media screen and (max-width:300px){
+.mainn{
+    width: 95%;
+}
+.header{
+    width: 95%;
+}
+
+}
+@media screen and (max-width:250px){
+    .mainn{
+        width: 60%;
+    }
+    .header{
+        width: 80%;
+    }
+
 }
