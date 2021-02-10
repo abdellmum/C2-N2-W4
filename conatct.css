@@ -1,5 +1,10 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
     width: 100%;
+    background-color: #afd3e7;
 }
 .header{
     width: 100%;
@@ -11,11 +16,7 @@ body{
 }
 .logo{
     height: 200px;
-<<<<<<< HEAD
     background-image: url(/C2-N2-W4/images/logo.svg);
-=======
-    background-image: url(images/logo.svg);
->>>>>>> 265db7688096c7f6d1e581c60cd7163551f369c5
     background-repeat: no-repeat;
     margin-top: 20px;
     margin-left: 10px;
@@ -23,11 +24,12 @@ body{
 .texts{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     justify-items: flex-end;
     position: absolute;
     top: 40px;
-    right: 259px;
+    right: 100px;
 }
 .text1{
 margin-right: 40px;
@@ -48,9 +50,10 @@ margin-right: 40px;
     grid-template-columns: 30% 30%;
     grid-template-rows: 60px 60px 60px 60px;
     gap: 30px;
-    padding: 2px;
+     justify-content: center; 
 
 }
+
 .rectp3{
    
     
@@ -78,11 +81,13 @@ margin-right: 40px;
     height: 40px;
     background-color: #3B7BCF;
     border-radius: 20%;
-    margin-left: 98px;
+     margin-left: 33px;  
     transition-duration: 0.5s;
     text-align: center;
     color: white;
     cursor: pointer;
+    margin-top: 20px;
+   justify-content: center;
     
 }
 .button:hover{
@@ -93,17 +98,24 @@ margin-right: 40px;
 }
 .mainn{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: stretch;
+    padding: 5%;
 }
 .left__main{
-    width: 50%;
+    width: 35%;
+    padding-left: 10%;
 }
 .rectangles{
     width: 86%;
     border: 1px solid #127998;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-bottom: none;
-    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 .right__main{
     margin-top: 20px;
@@ -129,55 +141,124 @@ margin-right: 40px;
     font-size: 31px;
 }
 .txt1{
+    margin-top: -64px;
     opacity: 0.5;
+    margin-top: -32px;
 }
 .arrow{
     background: none;
     border: none;
     cursor: pointer;
 }
-@media screen and (max-width:600px){
+.footer{
+    background-color: #e0e3ee;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.title{
+    color: white;
+}
+.logg{
+    background-image:url(/C2-N2-W4/images/logo.svg);
+    width: 200px;
+  height: 100px;
+    background-repeat: no-repeat;
+    
+    margin-top: 10px;
+}
+.fb{
+    background-image: url(/C2-N2-W4/images/icon-facebook.svg);
+    width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.insta{
+    background-image: url(/C2-N2-W4/images/icon-instagram.svg);
+    width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.twit{
+    background-image: url(/C2-N2-W4/images/icon-twitter.svg);
+    width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}.social{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+   
+}
+@media screen and (max-width:800px){
     .mainn{
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
     }
 
-.rectangles{
-    width: 100%;
+ .rectangles{
+    
     border: none;
     border-top: dashed #127998;
     margin-top: 100px;
-}
-.left__main{
+    
+    
+ }
+ .left__main{
     width: 100%;
 
-}
-.right__main{
-    width: 80%;
+ }
+ .right__main{
+    width: 100%;
     margin-left: 10%;
     margin-top: 10%;
-}
-.rectangle{
+
+ }
+ .rectangle{
     justify-content: center;
     margin-top: 200px;
+    margin-left: 0%;
     
-}
-.button{
-    margin-left: 250px;
-}
-.txt1{
-    text
-}
+ }
+ .button{
+    margin-left: 100px;
+ }
+ .texts{
+    width: 80%;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
 
+ } 
+ .logo{
+    background-size: 80px 50px;
+ }
+ .header{
+     width: 100%;
+ }
+}
 
 @media screen and (max-width:300px){
 .mainn{
-    width: 95%;
+    width: 100%;
 }
 .header{
-    width: 95%;
+    width: 100%;
 }
+.logo{
+    display: none;
+
+ }
+
+ 
+
 
 }
 @media screen and (max-width:250px){
@@ -187,5 +268,8 @@ margin-right: 40px;
     .header{
         width: 80%;
     }
-
+    .logo{
+        display: none;
+     }
+     
 }
