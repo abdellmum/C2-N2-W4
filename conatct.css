@@ -7,7 +7,7 @@ body{
     background-color: #afd3e7;
 }
 .all{
-    width: 1440px;
+    width: 100%;
     height: auto;
     position: relative;
 }
@@ -19,13 +19,13 @@ body{
     padding: 10px;
     position: relative;
 }
-.logo{
+/* .logo{
     height: 200px;
     background-image: url(/C2-N2-W4/images/logo.svg);
     background-repeat: no-repeat;
     margin-top: 20px;
     
-}
+} */
 .texts{
     display: flex;
     flex-direction: row;
@@ -93,6 +93,12 @@ body{
     opacity: 0.5;
     margin-left: 5px;
     margin-top: -19px;
+}
+.tx1{
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-top: -19px;
+    font-size: 13px;
 }
 .button {
     width: 172px;
@@ -198,7 +204,6 @@ body{
     width: 200px;
   height: 100px;
     background-repeat: no-repeat;
-    
     margin-top: 10px;
 }
 .fb{
@@ -229,17 +234,28 @@ body{
      background-repeat: no-repeat;
       margin-top: 10px;
 }.social{
-    width: 12%;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 10px;
-   
+    width: 20%;
+}
+.txin1{
+    width: 100%; 
+    height: 60px;
+    margin-top: 1.5px;
+}
+.txin{
+    width: 100%;
+     height: 25px;
+      margin-top: 8px;
 }
 @media screen and (max-width:800px){
  body{
      width: auto;
  }
+ 
     .mainn{
         
         display: flex;
@@ -256,36 +272,100 @@ body{
     }
   
  .footer{
-     background: none;
+   position: static;
+   margin-top: 10px;
  }
+ header{
+     display: block;
+
+ }
+ .txt2{
+    margin-bottom: 374px;
+    font-size: 20px;
+}
+.txt11{
+        margin-top: 0;
+        margin-top: 0px;
+   
+    font-size: 20px;
+}
+.txin{
+    width: 100%;
+     height: 40px;
+      margin-top: 8px;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #3B7BCF;
+    border-radius: 20%; 
+    
+}
+.rectangles{
+    height: 440px;
+}
+.right__main{
+    width: 100%;
+}
+.left__main{
+    width: 100%;
+}
 
 }
 
-@media screen and (max-width:300px){
-.mainn{
-    width: 100%;
-}
-.header{
-    width: 100%;
+ @media screen and (max-width:700px){
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .logo{
-    display: none;
+    height: 50%;
+}
+.left__main{
+    width: 90%;
+}
+.texts{
+    width: 90%;
+   justify-items: center;
+    height: 50%;
+    float: center;
+    right: 20px;
+    margin-top: 10px;
+    
+}
+#send{
+    font-size: 12px;
+}
+.social{
+    width: 30%;
+}
 
- }
+} 
 
  
 
-
-}
-@media screen and (max-width:250px){
-    .mainn{
-        width: 60%;
+ @media screen and (max-width:340px){
+   .texts{
+        overflow: hidden;
+        background-color: rgb(27, 29, 31);
+        height: 40px;
+        flex-wrap: nowrap;
+      width: 100%;
+      right: 0;
+      margin-top: 40px;
+   }
+   .logo{
+       background-size: 20% 20%;
+   }
+   
+} 
+@media screen and (max-width:282px){
+    .texts{
+        font-size: 8px;
+        
     }
-    .header{
-        width: 80%;
-    }
-    .logo{
-        display: none;
-     }
-     
+    
 }
