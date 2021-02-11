@@ -119,11 +119,11 @@ body{
 .name{
     margin-left: 5px;
     font-size: 14px;
-    align-self:center;l
+    align-self:center;
 }
 .name p{
     font-size: 10px;
-    align-self:center;l
+    align-self:center;
 }
 .works{
     text-decoration: none;
@@ -156,6 +156,30 @@ hr{
     border-radius: 5px;
     margin-bottom: 7px;
 
+}
+.fc-logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 60px;
+}
+
+
+.fc-logo img{
+    margin: 10px;
+    border: 4px solid #fff;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+
+.fc-logo img:hover{
+    box-shadow: 0 6px 9px aqua;
+}
+
+.ic img{
+    padding-top: 5px;
 }
 .fylo-logo{
     /* (1440/4 = 360) */
@@ -344,7 +368,7 @@ hr{
         display: flex;
         justify-content: start;
         align-self: center;
-        line-height: 45px;
+        line-height: 65px;
         margin-bottom: 20px;
     }
     .contact-us{
@@ -352,7 +376,11 @@ hr{
         display: flex;
         justify-content: start;
         align-self: center;
-        line-height: 45px;
+        line-height: 65px;
+    }
+
+    .contact-us{
+        line-height: 65px;
     }
     .fylo-logo{
         width: 360px;
@@ -374,3 +402,4 @@ hr{
       .contact-us { grid-area: contact-us; }
       .fc-logo { grid-area: fc-logo; }
 }
+
