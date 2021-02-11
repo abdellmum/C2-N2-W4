@@ -1,0 +1,371 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    background-color: #afd3e7;
+}
+.all{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #127998;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+/* .logo{
+    height: 200px;
+    background-image: url(/C2-N2-W4/images/logo.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    
+} */
+.texts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: flex-end;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+.text1{
+    text-decoration: underline;
+    color: white;
+    margin-right: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.text2{
+    text-decoration: underline;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.text3{
+    text-decoration: underline;
+    color: white;
+    margin-left: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.text4{
+    text-decoration: underline;
+    color: white;
+    margin-left: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.rectangle{
+    width: 100%;
+    margin-top: 29px;
+    margin-left: -15px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 60px 60px 60px 60px;
+    gap: 30px;
+     justify-content: center; 
+
+}
+
+.rectp3{ 
+    grid-area: 2/1/3/3;
+}
+.rectp4{
+    grid-area: 3/1/4/3;
+}
+.rectp5{
+    grid-area: 4/1/5/3;
+}
+.tx{
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-top: -19px;
+}
+.tx1{
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-top: -19px;
+    font-size: 13px;
+}
+.button {
+    width: 172px;
+    height: 40px;
+    background-color: #3B7BCF;
+    border-radius: 20%; 
+    transition-duration: 0.5s;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 0 6px 12px #3B7BCF;
+}
+#send{
+    margin-top: 8px;
+}
+.mainn{
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.left__main{
+    width: 35%;
+    margin-top: 20px;
+}
+.rectangles{
+    width: 100%;
+    border: 1px solid #127998;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: none;
+    background-color: white;
+    height: 104%;
+}
+.right__main{
+    margin-top: 20px;
+    background-image:url(images/illustration-2.svg);
+    background-size: 79% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin-top: 35px;
+}
+.tpp{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.txt3{
+    color: #127998;
+}
+.txt2{
+    margin-bottom: 374px;
+    font-size: 37px;
+}
+.title{
+    font-size: 31px;
+}
+.txt11{
+    text-decoration: dashed underline red;
+    margin-top: -45px;
+    margin-top: -15px;
+    font-size: 50px;
+}
+.txt1{
+    margin-top: -64px;
+    opacity: 0.5;
+    margin-top: -32px;
+}
+.arrow{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    background-color: #e0e3ee;
+    width: 100%;
+    height: 87px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: bottom;
+    position: absolute;
+    top:854px;
+    
+}
+.title{
+    color: white;
+}
+.logg{
+    background-image:url(/C2-N2-W4/images/logo.svg);
+    width: 200px;
+  height: 100px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.fb{
+    background-image: url(/C2-N2-W4/images/icon-facebook.svg);
+    width: 24px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.insta{
+    background-image: url(/C2-N2-W4/images/icon-instagram.svg);
+    width: 24px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.twit{
+    background-image: url(/C2-N2-W4/images/icon-twitter.svg);
+    width: 24px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+     background-repeat: no-repeat;
+      margin-top: 10px;
+}.social{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width: 20%;
+}
+.txin1{
+    width: 100%; 
+    height: 60px;
+    margin-top: 1.5px;
+}
+.txin{
+    width: 100%;
+     height: 25px;
+      margin-top: 8px;
+}
+@media screen and (max-width:800px){
+ body{
+     width: auto;
+ }
+ 
+    .mainn{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .all{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+  
+ .footer{
+   position: static;
+   margin-top: 10px;
+ }
+ header{
+     display: block;
+
+ }
+ .txt2{
+    margin-bottom: 374px;
+    font-size: 20px;
+}
+.txt11{
+        margin-top: 0;
+        margin-top: 0px;
+   
+    font-size: 20px;
+}
+.txin{
+    width: 100%;
+     height: 40px;
+      margin-top: 8px;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #3B7BCF;
+    border-radius: 20%; 
+    
+}
+.rectangles{
+    height: 440px;
+}
+.right__main{
+    width: 100%;
+}
+.left__main{
+    width: 100%;
+}
+
+}
+
+ @media screen and (max-width:700px){
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 50%;
+}
+.left__main{
+    width: 90%;
+}
+.texts{
+    width: 90%;
+   justify-items: center;
+    height: 50%;
+    float: center;
+    right: 20px;
+    margin-top: 10px;
+    
+}
+#send{
+    font-size: 12px;
+}
+.social{
+    width: 30%;
+}
+
+} 
+
+ 
+
+ @media screen and (max-width:340px){
+   .texts{
+        overflow: hidden;
+        background-color: rgb(27, 29, 31);
+        height: 40px;
+        flex-wrap: nowrap;
+      width: 100%;
+      right: 0;
+      margin-top: 40px;
+   }
+   .logo{
+       background-size: 20% 20%;
+   }
+   
+} 
+@media screen and (max-width:282px){
+    .texts{
+        font-size: 8px;
+        
+    }
+    
+}
