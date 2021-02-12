@@ -64,7 +64,7 @@ body{
 
 .rectangle{
     width: 100%;
-    margin-top: 29px;
+    margin-top: -6px;
     margin-left: -15px;
     display: grid;
     grid-template-columns: 30% 30%;
@@ -111,6 +111,7 @@ body{
     margin-top: 8px;
 }
 .mainn{
+    padding: 5%;
     height: 95%;
     display: flex;
     flex-direction: row;
@@ -157,7 +158,7 @@ body{
 }
 .txt2{
     margin-bottom: 374px;
-    font-size: 37px;
+    font-size: 26px;
 }
 .title{
     font-size: 31px;
@@ -165,7 +166,7 @@ body{
 .txt11{
     margin-top: -45px;
     margin-top: -15px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .arrow{
@@ -182,7 +183,7 @@ body{
     justify-content: center;
     float: bottom;
     position: absolute;
-    top:854px;
+    top:954px;
     
 }
 .title{
@@ -244,6 +245,12 @@ body{
  body{
      width: auto;
  }
+ .rectangle{
+     margin-top: 9px;
+ }
+ .txt11{
+    font-size: 36px;
+}
  
     .mainn{
         
@@ -264,13 +271,10 @@ body{
    position: static;
    margin-top: 10px;
  }
- header{
-     display: block;
-
- }
+ 
  .txt2{
     margin-bottom: 374px;
-    font-size: 20px;
+    font-size: 26px;
 }
 .txt11{
         margin-top: 0;
@@ -349,6 +353,9 @@ header{
    .logo{
        background-size: 20% 20%;
    }
+   .tx11{
+       font-size: 10px;
+   }
    
 } 
 @media screen and (max-width:282px){
@@ -356,5 +363,6 @@ header{
         font-size: 8px;
         
     }
+   
     
 }
