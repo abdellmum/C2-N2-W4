@@ -19,13 +19,7 @@ body{
     padding: 10px;
     position: relative;
 }
-/* .logo{
-    height: 200px;
-    background-image: url(/C2-N2-W4/images/logo.svg);
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    
-} */
+
 .texts{
     display: flex;
     flex-direction: row;
@@ -104,7 +98,7 @@ body{
     width: 172px;
     height: 40px;
     background-color: #3B7BCF;
-    border-radius: 20%; 
+    border-radius: 15px; 
     transition-duration: 0.5s;
     text-align: center;
     color: white;
@@ -133,7 +127,7 @@ body{
 }
 .rectangles{
     width: 100%;
-    border: 1px solid #127998;
+    border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,16 +163,11 @@ body{
     font-size: 31px;
 }
 .txt11{
-    text-decoration: dashed underline red;
     margin-top: -45px;
     margin-top: -15px;
     font-size: 50px;
 }
-.txt1{
-    margin-top: -64px;
-    opacity: 0.5;
-    margin-top: -32px;
-}
+
 .arrow{
     background: none;
     border: none;
